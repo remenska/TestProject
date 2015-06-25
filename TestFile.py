@@ -1,10 +1,15 @@
 __author__ = 'daniela'
-
+import os
 print("Hello World")
-test_data = ["one", "two", "three", "four"]
+#test_data = ["one", "two", "three", "four"]
 
-for data in test_data:
-    print(data)
+
+def simple_function(test_data):
+    for data in test_data:
+        print(data)
+
+simple_function(os.listdir("."))
 
 print("Bye bye")
+
 
