@@ -24,5 +24,6 @@ os:
 install:
   - "pip install -r requirements.txt"
   - "pip install --upgrade pip"
+  - "python setup.py install"
 # command to run tests
 script: nosetests

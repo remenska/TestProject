@@ -1,5 +1,8 @@
 __author__ = 'daniela'
 import os
+import matplotlib
+import pandas
+
 print("Hello World")
 #test_data = ["one", "two", "three", "four"]
 
